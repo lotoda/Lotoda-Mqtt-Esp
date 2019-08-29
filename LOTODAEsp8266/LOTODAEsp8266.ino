@@ -1,14 +1,14 @@
 #include <PubSubClient.h>
 #include <ESP8266WiFi.h>
 
-#define WIFI_SSID "DASAN_GONTa9eb90"
-#define WIFI_PASSWORD "1234567890a"
+#define WIFI_SSID "...."  //Enter WiFi SSID at here
+#define WIFI_PASSWORD "...." //Enter WiFi Password at here
 
 char mqttServer[]  = "app.lotoda.vn"; //change it for your MQTT server IP or network name
 int mqttPort  = 1883; //1883 is the default port for MQTT. Change if necessary
 char deviceId[]  = "LotodaEsp8266-0001"; //every device should have a different name
 char topic[]  = "1c52c46eb8/lamp/power"; //the topic should be different for each device as well
-char mqttUser[]  = "1c52c46eb8";
+char mqttUser[]  = "1c52c46eb8"; //
 char mqttPassword[]  = "4gq6K4vlnW/26hHlLN";
 
 WiFiClient wifiClient;
