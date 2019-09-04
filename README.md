@@ -9,18 +9,16 @@ Sơ đồ đấu nối như sau:
 ========================
                 
 
-NodeMCU ESP8266 ---- Pin GND (connecting to GND Relay)
-               | \ 
-               |  \__ Pin 3V3 (connecting to Vcc Relay)
-               |  
-               |__ Pin D1 (GPIO 05) (output to control Relay)
-               
+Kết nối từ NodeMCU ESP8266 như sau:
+- Pin GND (connecting to GND Relay)
+- Pin 3V3 (connecting to Vcc Relay)
+- Pin D1 (GPIO 05) (output to control Relay)         
                  
 
 Sơ đồ chân của NodeMCU ESP8266 như sau:
 =======================================
                  
-<img src="https://github.com/lotoda/Lotoda-Mqtt-Esp/blob/master/nodemcudevkit_v1-0_io.jpg" width="650" height="315"/>
+<img src="https://github.com/lotoda/Lotoda-Mqtt-Esp/blob/master/nodemcudevkit_v1-0_io.jpg" width="650" height="515"/>
 
 
 IoT LOTODA platform
