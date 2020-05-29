@@ -62,8 +62,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
 void connect() {
   while (!client.connected()) {
-    status = WiFi.status();
-    if ( status != WL_CONNECTED) {
+    if ( WiFi.status() != WL_CONNECTED) {   //replaced by WiFi.status()
       WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
       while (WiFi.status() != WL_CONNECTED) {
         delay(500);
